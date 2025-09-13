@@ -1,0 +1,15 @@
+[package]
+name = "crypto-based-Loyalty-Card"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="0x207461e87f97a481f3f9cce9073eb5e02e4c28187f034e0d7c449a3cbd42276c"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
